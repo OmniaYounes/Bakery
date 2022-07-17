@@ -1,0 +1,413 @@
+.space
+    {
+        height: 100px;
+    }
+
+.clr
+    {
+        clear: both;
+    }
+
+*
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+.container
+    {
+        text-align: center;
+        color: #fff;
+        background-image: url('images/drew-coffman-1872.jpg');
+        width: 100%;
+        height: 720px;
+        background-size: 100% 100%;
+        display: block;
+        background-repeat: no-repeat;
+    }
+
+.logNav
+    {
+        /* background-color: blue; */
+        width: 100%;
+        height: 90px;
+        background-attachment: scroll;
+        background-color: rgba(20, 18, 18, 0.205);
+        position: fixed;
+    } 
+
+.logo
+    {
+        width: 40%;
+        height: 100%;
+        float: left;
+
+
+    }
+
+.logo img
+    {
+        width: 45%;
+        margin-right: 40px;
+        padding: 20px ;
+    }
+
+.nav
+    {
+        width: 60%;
+        height: 100%;
+        float: right;
+    }
+
+.nav ul
+    {
+        margin: 20px 20px;
+    }
+
+.nav ul li
+    {
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+    }
+.nav ul li  a
+    {
+        color: white;
+        text-decoration: none;
+    }
+    
+.Content 
+    {
+        margin: 40px 40px;
+        padding:40px 40px;
+        /* background-color: black; */
+    }
+
+.Content h3,h1,p
+    {
+        padding: 10px;
+        margin: 10px;
+    }
+
+.Content h3
+    {
+        font-size: 20px;
+    }
+
+.Content h1
+    {
+        font-size: 40px;
+    }
+    
+.Content p 
+    {
+        font-size: 24px;
+    }
+
+.Content button
+    {
+        margin: 5px;
+        padding: 15px;
+        width: 120px;
+    }
+    
+.Content .bgbutton
+    {
+        background-color: #8e7754; 
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+
+.Content .brButton
+    {
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid white;
+        color: white;
+        border-radius: 4px;
+    }
+  
+    
+    /* ***********************About************************* */
+
+#about
+    {
+        text-align: center center;
+        background-color: #fff; 
+        width: 100%;
+        height: 720px;
+    }
+
+
+.divabout
+    {
+        height: 100%;
+        margin: 30px 40px;
+
+    }
+
+
+.aboutimg
+    {
+        width: 45%;
+        float: left;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+.aboutimg img 
+    {
+        width: 100%;
+        margin-top: 30px;
+        padding-top:30px;
+    }
+.aboutcontent    
+    {
+        
+        width: 51%;
+        float: right;
+    }
+
+.aboutcontent p
+    {
+        color: #686868;
+        font-size: large;
+        line-height: 30px;
+    }
+
+.inlinep
+    {
+        width: 100%;
+        height: 50px;
+        color: #686868;
+        margin: 7px 7px;
+        display: inline-block;
+    }  
+     
+.inlinep img
+    {
+        width: 50px;
+        float: left;
+    } 
+ 
+    /* ***********************Our Location************ */
+
+.divOurLocation
+    {
+        text-align: center center;
+        background-color: #f8f8f8; 
+        width: 100%;
+        height: 720px;
+        
+    }
+
+.ourlocation
+    {
+        width: 90%;
+        height: 100%;
+        margin:50px 40px;
+    }
+
+.OurLocationcontent
+    {
+        width: 45%;
+        float: left;
+        padding:0px 40px 0px 40px;
+    }
+
+.OurLocationcontent p
+    {
+        color: #686868;
+        font-size: large;
+        line-height: 30px;
+    }
+
+.OurLocationimg
+    {
+        width: 45%;
+        float: right;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+.OurLocationimg img
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding-top:40px;
+    }
+
+/* *******************Our Baking*********************** */
+
+.divOurBaking
+    {
+        text-align: center ;
+        background-color: #fff; 
+        height: 760px;
+        
+    }
+
+.ourbaking
+    {
+        height: 100%;
+        text-align: center  ;
+    }
+
+.items
+    {
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    }
+
+.items .item
+    {
+        width: 33.33%;
+        float: left;
+    }
+
+.item img
+    {
+        width: 90%;
+    }
+
+.divOurBaking h1,h3
+    {
+        padding: 10px 0px;
+    }
+
+.divOurBaking h3
+    {
+        color: #686868;
+        font-size: large;
+    }
+
+.item h2
+    {
+        margin-top: 30px;
+    }
+
+.divOurBaking p
+    {
+        color: #686868;
+        font-size: large;
+        line-height: 27px;
+    }
+
+/* *******************Contact Information****************************** */
+.divcontactInfo
+    {
+        
+        background-color: #f8f8f8; 
+        height: 790px;
+    }
+
+.contactInfo
+    {
+        width: 85%;
+        height: 80%;
+        margin:auto;
+    }
+
+
+.contactInf-content
+    {
+       width: 45%; 
+       float: left;
+    }
+
+
+.divcontactInfo .inlinep
+    {
+        width: 100%;
+        height: 50px;
+        color: #686868;
+        margin: 7px 7px;
+        display: inline-block;
+    }
+
+.inlinep img
+    {
+        width: 50px;
+        float: left;
+    }
+
+.contactInf-content p
+    {
+        color: #686868;
+        font-size: large;
+        line-height: 30px;
+    }
+
+.contactInf-map
+    {
+        width: 45%; 
+        background-color: #1a1002;
+        float: right;
+    }
+
+/* *************************About Us****************************** */
+
+.divaboutUS
+    {
+        background-color: #353330;
+        height: 790px;
+    }
+
+.aboutUS
+    {
+        background-color: #403d38; 
+        height: 70%;
+    }
+
+.footer
+    {
+        width: 85%;
+        height: 100%;
+        margin: auto;
+    }
+    
+.footer .item1
+    {
+        width: 20%;
+        float: left;
+        margin: 0px 15px;
+        padding: 0px 15px;
+    }
+
+.footer h3
+    {
+        color: #fff;
+        padding: 10px ;
+    }
+
+.item1 li
+    {
+        padding: 10px;
+        color: #686868;
+    }    
+
+.footer p
+   {
+    color: #686868;
+    font-size: large;
+    line-height: 27px;
+   }
+.bakery
+    {
+        height: 30%;
+    }
+
+.bakery .marg
+    {
+        width: 30%;
+        margin: auto;
+        text-align: center;
+        color: rgb(122, 121, 121);
+        margin-top: 30px;
+
+    }
+.marg img
+    {
+        width: 50%;
+    }
